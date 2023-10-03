@@ -3,7 +3,6 @@ import glob
 import os
 from googletrans import Translator
 
-
 translator = Translator()
 # Get all CSV file paths in the 'to_be_processed/' directory
 file_paths = glob.glob('to_be_processed/*.csv')
